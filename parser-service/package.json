@@ -1,0 +1,14 @@
+{
+  "name": "solana-parser-service",
+  "version": "1.0.0",
+  "description": "Solana transaction parser service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@debridge-finance/solana-transaction-parser": "github:debridge-finance/solana-tx-parser-public",
+    "@solana/web3.js": "^1.87.6",
+    "express": "^4.18.2"
+  }
+} 
